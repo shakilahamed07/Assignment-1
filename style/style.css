@@ -32,10 +32,15 @@ section{
     font-size: 18px;
     padding: 17px 34px;
     transition: 0.2s ease-out;
+    border: none;
 }
 .hover-effect:hover{
     opacity: 90%;
     transform: scale(1.02);
+}
+p{
+    font-size: 16px;
+    color: #0e0e0e83;
 }
 /* sheare style end*/
 
@@ -60,6 +65,7 @@ header .nav-bar{
     border-radius: 8px;
     border: 2px solid #006A50;
     color: #006A50;
+    cursor: pointer;
 }
 /* nav style end */
 
@@ -91,6 +97,7 @@ header .nav-bar{
     border-radius: 8px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 /* hero style end */
 
@@ -117,16 +124,112 @@ header .nav-bar{
     background-color: white;
     border-radius: 16px;
 }
-
 /* pillar section end */
 
 
-/* pillar section start */
-/* pillar section end */
+/* vision of future section start */
+.vision-of-future_heading{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.future-conteinar{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+.future-conteinar div{
+    padding: 24px;
+    background-color: #d1dcef;
+    border-radius: 16px;
+}
+.future-conteinar h3{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.future-conteinar button{
+    margin-top: 64px;
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #5490F5;
+    cursor: pointer;
+}
+.future-conteinar div:nth-child(2) button{
+    background-color: #006A50;
+    margin-top: 40px;
+}
+.future-conteinar div:nth-child(3) button{
+    background-color: #FFC239;
+}
+.future-conteinar div:nth-child(2){
+    background-color: #C6E4D6;
+}
+.future-conteinar div:nth-child(3){
+    background-color: #F7EBCF;
+}
+
+.about-Dr_Y{
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16PX;
+}
+.about-Dr_Y p{
+    color: rgba(0, 0, 0, 0.825);
+}
+.about-Dr_Y h4{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.797);
+}
+/* vision of future section end */
 
 
-/* pillar section start */
-/* pillar section end */
+/* Quetion table section start */
+.table-caption{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.table-box{
+    padding: 32px;
+    background-color: white;
+    text-align: center;
+    border-radius: 16px;
+}
+.table-box table{
+    margin: 0 auto;
+    font-size: 16px;
+}
+table tbody td,th{
+    padding: 35px 20px;
+}
+table thead{
+    background-color: #C6E4D6;
+}
+.table-box table thead tr{
+    display: flex;
+    justify-content: space-between;
+}
+.q1{
+    margin-left: 950px;
+}
+.table-box table tbody tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+select{
+    padding: 12px 16px;
+    border-radius: 8px;
+    background-color: #C6E4D6;
+}
+tbody tr:nth-child(2){
+    background-color: #C6E4D6;
+}
+/* Quetion table section end */
 
 
 /* pillar section start */
