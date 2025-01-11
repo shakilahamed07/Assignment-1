@@ -276,6 +276,63 @@ tbody tr:nth-child(2){
 /* news section end */
 
 
+/* donate section start */
+.Donate{
+    text-align: center;
+    margin-top: 80px;
+    padding: 0 88px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+    
+}
+.donate-amount div{
+    width: 252px;
+    height: 128px;
+    border-radius: 16px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tk-200{
+    background-color: #C6E4D6;
+}
+.tk-100, .tk-300, .tk-400{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.donate-amount div:hover{
+    background-color: #006A50;
+    color: white;
+    transform: scale(1.03);
+}
+input[type="text"]{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 418px;
+    border: none;
+    border-bottom: 1px solid #0e0e0e36;
+}
+.Donate button{
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    margin-top: 32px;
+}
+
+/* donate section end */
+
+
+/* pillar section start */
+/* pillar section end */
+
+
 /* pillar section start */
 /* pillar section end */
 
