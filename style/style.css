@@ -272,6 +272,7 @@ tbody tr:nth-child(2){
     color: white;
     background-color: #006A50;
     margin-top: 32px;
+    cursor: pointer;
 }
 /* news section end */
 
@@ -324,15 +325,64 @@ input[type="text"]{
     border: none;
     color: white;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 /* donate section end */
 
 
-/* pillar section start */
-/* pillar section end */
+/* subcribtion section start */
+.subscribtion{
+    text-align: center;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.input-email{
+    display: flex;
+    gap: 0px;
+    margin: 24px 0;
+
+}
+input[type="search"]{
+    padding: 18px 403px 18px 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.input-email button{
+    background-color: #006A50;
+    color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 18px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.input-email button:hover{
+    background-color: #006a50dc;
+}
+/* subcribtion section end */
 
 
-/* pillar section start */
-/* pillar section end */
+/* footer section start */
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 239px;
+}
+footer h2{
+    font-size: 32px;
+}
+footer hr{
+    opacity: 20%;
+    margin: 32px 0;
+}
+.socail-icon{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+/* footer section end */
 
