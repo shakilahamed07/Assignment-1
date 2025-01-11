@@ -130,6 +130,7 @@ header .nav-bar{
     padding: 24px;
     background-color: white;
     border-radius: 16px;
+    width: 302px;
 }
 /* pillar section end */
 
@@ -141,6 +142,7 @@ header .nav-bar{
 }
 .future-conteinar{
     display: flex;
+    justify-content: space-around;
     gap: 24px;
     margin: 32px 0;
 }
@@ -148,6 +150,7 @@ header .nav-bar{
     padding: 24px;
     background-color: #d1dcef;
     border-radius: 16px;
+    width: 410px;
 }
 .future-conteinar h3{
     font-size: 20px;
@@ -155,13 +158,19 @@ header .nav-bar{
     margin-bottom: 12px;
 }
 .future-conteinar button{
-    margin-top: 64px;
+    /* margin-top: 64px; */
     padding: 11px 20px;
     font-size: 16px;
     border-radius: 8px;
     color: #ffffff;
     background-color: #5490F5;
     cursor: pointer;
+}
+.future-conteinar div p{
+    margin-bottom: 24px;
+}
+.future-conteinar .p2{
+    margin-bottom: 48px;
 }
 .future-conteinar div:nth-child(2) button{
     background-color: #006A50;
@@ -253,6 +262,10 @@ tbody tr:nth-child(2){
 }
 .news-conteinar .news-img{
     border-radius: 24px;
+}
+.metro, .cox-bazar-rail{
+    width: 408px;
+    height: 306px;
 }
 .news-conteinar div h1{
     font-size: 32px;
